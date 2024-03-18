@@ -1,37 +1,49 @@
-Клонировать репозиторий и перейти в него в командной строке:
+YaCut - web service for shortening links.
 
-```
-git clone 
-```
+Flask - SQLAlchemy - API
+_______________________________________________________________________________________________________________________________________________
 
-```
+<img width="1724" alt="Снимок экрана 2024-03-19 в 00 09 22" src="https://github.com/zubkovoleg01/yacut/assets/120819704/be7a6afe-2785-4946-9954-3ec537f3428b">
+
+
+_______________________________________________________________________________________________________________________________________________
+
+● Create a new short-link.
+
+● Create a new short-link with your ideas.
+
+● API for GET, POST requests.
+
+_______________________________________________________________________________________________________________________________________________
+
+Deployment Instructions
+
+● Clone the repository
+
+git clone https://github.com/zubkovoleg01/yacut.git
+
+● Navigate to the project directory
+
 cd yacut
-```
 
-Cоздать и активировать виртуальное окружение:
+● Create and activate a virtual environment:
 
-```
 python3 -m venv venv
-```
 
-* Если у вас Linux/MacOS
+source venv/bin/activate
 
-    ```
-    source venv/bin/activate
-    ```
+or for Windows users
 
-* Если у вас windows
+source env/Scripts/activate
 
-    ```
-    source venv/scripts/activate
-    ```
+● Install dependencies from the requirements.txt file:
 
-Установить зависимости из файла requirements.txt:
-
-```
 python3 -m pip install --upgrade pip
-```
 
-```
+
 pip install -r requirements.txt
-```
+
+
+● Run the project:
+
+flask run
